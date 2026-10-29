@@ -210,10 +210,10 @@ border-radius: 20px;
     font-weight: 600;
     
 }
-/* --- Why Choose Us Section Styles --- */
+
 .why-choose-us {
     padding: 60px 20px;
-    background-color: #ffffff; /* बैकग्राउंड को साफ़ सफेद रखने के लिए */
+    background-color: #ffffff; 
     text-align: center;
 }
 
@@ -224,7 +224,7 @@ border-radius: 20px;
     font-weight: 700;
 }
 
-/* तीनों बॉक्स को एक लाइन में सेट करने के लिए Flexbox */
+
 .features-container {
     display: flex;
     justify-content: space-around;
@@ -258,10 +258,10 @@ border-radius: 20px;
     color: #666666;
     line-height: 1.4;
     margin: 0;
-    max-width: 250px; /* टेक्स्ट को ज्यादा फैलने से रोकने के लिए */
+    max-width: 250px; 
 }
 
-/* मोबाइल रिस्पॉन्सिव लेआउट (ताकि छोटी स्क्रीन पर ये एक के नीचे एक आएं) */
+
 @media (max-width: 768px) {
     .features-container {
         flex-direction: column;
